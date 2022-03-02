@@ -1,21 +1,30 @@
 ---
 layout: post
-title: My New Post
+title: Homework00
 date: '2022-01-06 00:44:59 +0900'
 math: true
 ---
 # Welcome
 
-**This is numerical analysis lecture note** for Mathematical Chemistry Class 2022-1.
+**This is numerical analysis lecture note** for Mathematical Chemistry Class 2022-1. In this post, I am giving you the first homework to open and run the below python code: https://github.com/changwmyung/numerical_analysis_chem/blob/master/homework/hw00/Hello_World.ipynb
 
-Hi all.
+# print
+
+For the first line, you will note that we are calling a function called print to print out a simple string "Hello World!"
+
+```
+print("Hello World!")
+```
+
+# Loading package
+
+The second line is to load a package called numpy as np and to create a 1-D vector called a. We will later cover this in detail. This example is just to check if the package is installed correctly.
 
 ```
 import numpy as np
+
+a=np.array([0,1,2,3])
+print(a)
 ```
 
-# LU decomposition
-
-The motivation for an LU decomposition is based on the observation that systems of equations involving triangular coefficient matrices are easier to deal with. Indeed, the whole point of Gaussian elimination is to replace the coefficient matrix with one that is triangular. The LU decomposition is another approach designed to exploit triangular systems.
-
-$A=Bx$
+Well done!
